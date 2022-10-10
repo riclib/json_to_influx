@@ -1,0 +1,18 @@
+time:
+  field: time
+  formats:
+    - 2006-01-02
+    - 2006-01-02 15:04:05
+debug: true
+
+influx:
+  token: dpmENFa_YTpbh3RTMt_2d3w-zTk3A5Y766W4kTSoqyCOBE0bgUMR6g8ZADGg1qtU3x96BSTVhZknomJOVatTRA==
+
+common_label_names:
+  - run_name
+  - upload_weekday
+default_labelname:
+  total_daily_delta_table_updates: table
+  all_stream_batch_job: group
+  least_updated_tables: table
+  weekday_total_batchjobs: kind

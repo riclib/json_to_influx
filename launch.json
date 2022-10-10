@@ -1,0 +1,17 @@
+{
+  ersion": "0.2.0",
+  onfigurations": [
+    
+      : "Launch main",
+      : "go",
+      st": "launch",
+      : "debug",
+      am": "${workspaceFolder}/main.go",
+      : [
+        t.file",
+        
+        ,
+      a
+    
+  }
+ }
